@@ -3,3 +3,11 @@ There is a prototype of a 2D game that I made with Unity, inspired of Flappy Bir
 
 # 📕 Resources
 The assets of the bird, the pipes and the clouds were made by Game Maker's Toolkit.
+
+# 📆 Roadmap
+- ~~Game over when getting out of the screen~~
+- ~~Add clouds in the background~~
+- Add a starting menu
+- Add a wings animation
+- Add sound effects
+- Add my own sprites
