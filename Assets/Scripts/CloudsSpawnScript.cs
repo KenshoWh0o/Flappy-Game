@@ -8,15 +8,16 @@ public class CloudSpawner : MonoBehaviour
     public float spawnRate = 10;
     private float timer = 0;
     public float heightOffset = 10;
-    // Start is called before the first frame update
+
     void Start()
     {
+        // Spawn of the cloud
         spawnCloud();
     }
 
-    // Update is called once per frame
     void Update()
     {
+        // Interval between each spawn
         if (timer < spawnRate) 
         {
             timer +=Time.deltaTime;
@@ -29,6 +30,7 @@ public class CloudSpawner : MonoBehaviour
 
     void spawnCloud()
     {
+        // Randomization of the spawn
         float lowestPoint = transform.position.y - heightOffset;
         float highestPoint = transform.position.y + heightOffset;
 

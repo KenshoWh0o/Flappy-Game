@@ -4,20 +4,15 @@ using UnityEngine;
 
 public class CloudsMoveScript : MonoBehaviour
 {
-
      public float moveSpeed = 2;
     public float deadZone = -30;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
+        // Move of the clouds
         transform.position = transform.position + (Vector3.left * moveSpeed) * Time.deltaTime;
 
+        // Delete of the clouds when out of the screen
         if (transform.position.x < deadZone)
         {
             Debug.Log("Clouds Deleted");
