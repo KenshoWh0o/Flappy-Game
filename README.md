@@ -3,4 +3,3 @@ There is a prototype of a 2D game that I made with Unity, inspired of Flappy Bir
 
 # 📕 Resources
 The assets of the bird, the pipes and the clouds were made by Game Maker's Toolkit.
-
